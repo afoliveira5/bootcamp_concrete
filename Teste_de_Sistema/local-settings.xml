@@ -1,0 +1,15 @@
+<settings>
+	<servers>
+		<server>
+			<username>cps946u</username>
+			<password>AP8h2mnbt1XXFkVHdn9TGQUbUsn</password>
+			<id>central</id>
+		</server>
+		<server>
+			<username>cps946u</username>
+			<password>AP8h2mnbt1XXFkVHdn9TGQUbUsn</password>
+			<id>snapshots</id>
+		</server>
+	</servers>
+</settings> 
+
