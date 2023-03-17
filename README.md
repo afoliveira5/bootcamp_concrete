@@ -34,7 +34,7 @@ mvn -version
 ```
 
 
-## Ao tentar instalar o chromedriver utilizando o MAC M1 encontrei um problema para a instalação devido a permissao MESMO EU SENDO USER ROOT que eu nao tinha permissao entao encontrei o comando abaixo que possibilitou que eu conseguisse instalar o chromedriver
+## Ao tentar instalar o CHROMEDRIVER utilizando o MAC com o processador M1 encontrei um problema para poder instalar o CHROMEDRIVER pois falava que eu nao tinha permissao para executa-lo, MESMO EU SENDO USER ROOT DA MAQUINA. Foi ai que pesquisando eu encontrei o comando abaixo que permitiu que eu conseguise executar o CHROMEDRIVER
 
 ```
 sudo spctl --master-disable 
