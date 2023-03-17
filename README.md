@@ -24,7 +24,7 @@ e cole o comando abaixo no arquivo que vai abrir
 OBS: Voce precisa ter um dos dois instalado e funcionando acima
 
 ```
-export PATH=~/Users/NOME DO SEU USUARIO DA MAQUINA /PASTA AONDE ESTA O MAVEN/apache-maven-3.8.6[/bin:$PATH
+export PATH=~/Users/NOME DO SEU USUARIO DA MAQUINA /A PASTA AONDE ESTA O MAVEN/apache-maven-3.8.6[/bin:$PATH
 
 ```
 
