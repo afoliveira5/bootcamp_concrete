@@ -18,11 +18,6 @@ public class LoginPage extends Page {
     private final By AccountUser = By.id("textAccountNumber");
 
 
-    // private final By LOGIN_FIELD_NOT_FOUND = By.id("user_email");
-    // private final By PASSWORD_FIELD_NOTFOUND = By.id("user_password");
-    // private final By Fill_confirmation = By.xpath("//*[@id=\"new_user\"]/input");
-    // private final By USER_PASSWORD_WRONG_MESSAGE = By.cssSelector("body > div.container > div.alert.alert-warning");
-
     public LoginPage(Browser browser, HandleProperties handleProperties) {
         super(browser.getWebDriver());
 
@@ -40,20 +35,6 @@ public class LoginPage extends Page {
 
     }
 
-    // public void fillLoginFieldNotFound(String user) {
-    //     fillInput(user, LOGIN_FIELD_NOT_FOUND);
-
-    // }
-
-    // public void fillconfirmacao(String confirmation) {
-    //     fillInput(confirmation, Fill_confirmation);
-
-    // }
-
-    // public void fillconfirmation(String confirmation) {
-    //     fillInput(confirmation, Fill_confirmation);
-
-    // }
 
     public void fillPasswordField(String password) {
         fillInput(password, PASSWORD_FIELD);
@@ -62,11 +43,6 @@ public class LoginPage extends Page {
     public void clickEnterButton() {
         click(ENTER_BUTTON);
     }
-
-    // public String getUserPasswordWrongMessage() {
-    //     WebElement webElement = getElement(USER_PASSWORD_WRONG_MESSAGE);
-    //     return getTextOfVisibleElement(webElement);
-    // }
 
  public String getUserAccountSucess() {
         WebElement webElement = getElement(AccountUser);
@@ -80,13 +56,6 @@ public class LoginPage extends Page {
         clickEnterButton();
     }
 
-    // public void makeLoginEmailNotFound(String user, String password) {
-    //     fillLoginFieldNotFound(user);
-    //     fillPasswordField(password);
-    //     clickEnterButton();
-
-    // }
-
     public void makeLoginPasswordNotFound(String user, String  PASSWORD_FIELD_NOTFOUND) {
         fillLoginField(user);
         fillPasswordField( PASSWORD_FIELD_NOTFOUND);
@@ -98,11 +67,6 @@ public class LoginPage extends Page {
         fillPasswordField(passwordAdress);
         clickEnterButton();
     }
-
-    // public void clickButtomSignIn() {
-    //     click(ButtomSignIn);
-
-    // }
 
     public boolean ButtonInstructionIsDisplayed() {
         return isVisible(Button_instruction);

@@ -6,7 +6,7 @@ Funcionalidade: Login
 Cenário: Realizar login com sucesso
 Dado que estou na tela de login
 Quando realizar login na aplicacao
-Então visualizo a home do site
+Então visualizo a pagina inicial do site
 
 @login 
 Cenário: Realizar login com usuario invalido
