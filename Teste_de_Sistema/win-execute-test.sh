@@ -2,10 +2,9 @@
 set -x
 
 export TESTS_BROWSER=chrome
-export TESTS_ENVIRONMENT=itau-hom
-export EXECUTION_ENVIRONEMENT=production
+export TESTS_ENVIRONMENT=sistema-dev
+export EXECUTION_ENVIRONEMENT=development
 export ENABLE_ATTACHMENTS_STORE=true
-
 if [ -z "$1" ]; then
     echo "Executando todas as features..."
     # mvn -s local-settings.xml -Dbrowser=CHROME_WINDOWS test
