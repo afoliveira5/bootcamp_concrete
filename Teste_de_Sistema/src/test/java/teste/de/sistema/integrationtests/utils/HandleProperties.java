@@ -53,21 +53,21 @@ public class HandleProperties {
 
 		} else if (TESTS_ENVIRONMENT != null && !TESTS_ENVIRONMENT.isEmpty()) {
 			
-			switch (TESTS_ENVIRONMENT) {
+			switch (TESTS_ENVIRONMENT) { environment
 				case "local":
 					file = "config_local.properties";
 					break;
 				case "pipeline":
 					file = "config_pipeline.properties";
 					break;
-				case "itau-dev":
+				case "environment-dev":
 					file = "config_sistema_dev.properties";
 					break;
-				case "itau-hom":
-					file = "config_itau_hom.properties";
+				case "environment-hom":
+					file = "config_environment_hom.properties";
 					break;
-				case "pismo-ext":
-					file = "config_pismo_ext.properties";
+				case "environment-ext":
+					file = "config_environment_ext.properties";
 					break;
 				default:
 					file = "config_sistema_dev.properties";
@@ -78,7 +78,7 @@ public class HandleProperties {
 
 		} else {
 
-			pathFile = pathFile + "config_itau_dev.properties";
+			pathFile = pathFile + "config_environment_dev.properties";
 
 		}
 
