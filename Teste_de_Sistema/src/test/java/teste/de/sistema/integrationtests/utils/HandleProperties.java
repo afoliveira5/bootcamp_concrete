@@ -53,7 +53,7 @@ public class HandleProperties {
 
 		} else if (TESTS_ENVIRONMENT != null && !TESTS_ENVIRONMENT.isEmpty()) {
 			
-			switch (TESTS_ENVIRONMENT) { environment
+			switch (TESTS_ENVIRONMENT) {
 				case "local":
 					file = "config_local.properties";
 					break;
