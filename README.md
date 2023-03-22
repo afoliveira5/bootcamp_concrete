@@ -61,7 +61,7 @@ Certifique que a pasta `./drivers` tenha o driver correspondente à versão do s
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
-## Usuário MacOS
+## EXECUTAR o Projeto com Usuário MacOS
 
 #### Acessar a pasta aonde tem o arquivo ./mac para poder Rodar todos os testes usar o comando abaixo
 
@@ -75,7 +75,7 @@ Certifique que a pasta `./drivers` tenha o driver correspondente à versão do s
 ./mac-execute-test.sh @tag-que-queira-rodar
 ```
 
-### Usuário Windows
+### EXECUTAR o Projeto com Usuário Windows
 
 #### Rodar todos os testes
 
