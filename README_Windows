@@ -1,0 +1,84 @@
+# Fazendominstalação no windows 
+
+##  Para quem usa Windows 7 em diante baixar o git app
+
+```
+https://gitforwindows.org/
+```
+
+## Baixar o java jdk e jre e INSTALAR
+
+```
+https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
+```
+
+## Baixar o maven-3.8.6
+```
+https://maven.apache.org/download.cgi
+```
+
+# VAMOS CONFIGURAR AS VARIAVEIS DE AMBIENTE
+
+No teclado do windows executar o seguinte comando
+
+```
+Botao com a bandeira do windows + o botão Pause Break
+```
+OBS: vai abri uma janela de configuração.
+
+ou
+
+Clicar com o botao direito do mouse emcima do icone do meu computador
+propriedade
+ vai abir a janela de configuração e clicar abaixo 
+
+ |
+ V
+
+## clicar em configurações avançada
+
+```
+configurar variaveis de ambiente
+```
+
+na tela de variaveis de ambiente vai abrir dois espaço um variaveis de usuario
+outro variveis de ambiente, colocar os caminhos abaixo nos dos espaco
+
+
+JAVA_HOME
+```
+C:\Program Files\Java\jdk1.8.0_351
+```
+
+MAVEN_HOME
+```
+C:\Users\Aparecido\Documents\drives\apache-maven-3.8.6
+```
+
+Path
+```
+%JAVA_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;%IntelliJ IDEA Community Edition%java -jar "C:\Path to File\myJar.jar";%MAVEN_HOME%\bin
+```
+
+jar
+```
+java -jar "C:\Path to File\myJar.jar"
+```
+
+
+# Após configurar tudo acima abrir o BASH DO GIT 
+  ## NO BASH DO GIT entrar na pasta do projeto clonado
+   ### Entrar na pasta teste de sistema e executar o comando abaixo
+
+#### Rodar todos os testes
+
+```bash
+sh win-execute-test.sh
+```
+
+#### Rodar testes por tag
+
+```bash
+sh win-execute-test.sh @tag-que-queira-rodar
+```
+
