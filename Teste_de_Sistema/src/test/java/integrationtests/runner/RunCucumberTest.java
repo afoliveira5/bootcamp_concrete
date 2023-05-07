@@ -1,4 +1,4 @@
-package teste.de.sistema.integrationtests.runner;
+package integrationtests.runner;
 
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     monochrome = true,
     features = "src/test/resources/features",
-    glue = "teste/de/sistema/integrationtests/steps",
+    glue = "integrationtests/steps",
     plugin = { 
         "pretty",
         "json:target/cucumber-reports/Report.json",

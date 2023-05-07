@@ -3,6 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=maven,eclipse
 
 ### Eclipse ###
+.DS_Store
 .metadata
 bin/
 tmp/
@@ -22,6 +23,7 @@ local.properties
 ../../.DS_Store
 # External tool builders
 .externalToolBuilders/
+ ../drivers/.DS_Store
 
 .DS_Store
 

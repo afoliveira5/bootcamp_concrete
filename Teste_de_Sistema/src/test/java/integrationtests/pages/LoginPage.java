@@ -1,10 +1,10 @@
-package teste.de.sistema.integrationtests.pages;
+package integrationtests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import teste.de.sistema.integrationtests.utils.Browser;
-import teste.de.sistema.integrationtests.utils.HandleProperties;
-import teste.de.sistema.integrationtests.utils.Page;
+import integrationtests.utils.Browser;
+import integrationtests.utils.HandleProperties;
+import integrationtests.utils.Page;
 
 public class LoginPage extends Page {
 

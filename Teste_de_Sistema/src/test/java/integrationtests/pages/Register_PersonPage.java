@@ -1,4 +1,4 @@
-package teste.de.sistema.integrationtests.pages;
+package integrationtests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -6,9 +6,9 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 
-import teste.de.sistema.integrationtests.utils.Browser;
-import teste.de.sistema.integrationtests.utils.HandleProperties;
-import teste.de.sistema.integrationtests.utils.Page;
+import integrationtests.utils.Browser;
+import integrationtests.utils.HandleProperties;
+import integrationtests.utils.Page;
 
 public class Register_PersonPage extends Page {
 
@@ -71,6 +71,20 @@ public class Register_PersonPage extends Page {
 		click(Register_Button);
 	}//clica no botão de cadasrar usuario 
 
+	public void fillLoginField(String user) {
+        fillInput(user, User_Email);
+
+    }
+
+    public void fillPasswordField(String password) {
+        fillInput(password, User_Password);
+    }
+
+	public void makeLogin(String user, String password) {
+        fillLoginField(user);
+        fillPasswordField(password);
+        
+    }
 
 	public String getUsersPasswordWrongMessage() {
 		WebElement webElement = getElement(USER_PASSWORD_WRONG_MESSAGE);

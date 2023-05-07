@@ -1,12 +1,12 @@
-package teste.de.sistema.integrationtests.pages;
+package integrationtests.pages;
 // import org.openqa.selenium.By;
 
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TimeoutException;
 
-import teste.de.sistema.integrationtests.utils.Browser;
-import teste.de.sistema.integrationtests.utils.Page;
+import integrationtests.utils.Browser;
+import integrationtests.utils.Page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

@@ -1,12 +1,12 @@
-package teste.de.sistema.integrationtests.steps;
+package integrationtests.steps;
 
 import java.lang.Exception;
 import java.util.List;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
-import teste.de.sistema.integrationtests.utils.AttachmentsStore;
-import teste.de.sistema.integrationtests.utils.Browser;
+import integrationtests.utils.AttachmentsStore;
+import integrationtests.utils.Browser;
 
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.logging.LogEntries;

@@ -1,8 +1,8 @@
-package teste.de.sistema.integrationtests.steps;
+package integrationtests.steps;
 
-import teste.de.sistema.integrationtests.pages.Register_PersonPage;
-import teste.de.sistema.integrationtests.pages.StrokePage;
-import teste.de.sistema.integrationtests.utils.HandleProperties;
+import integrationtests.pages.Register_PersonPage;
+import integrationtests.pages.StrokePage;
+import integrationtests.utils.HandleProperties;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
@@ -11,14 +11,19 @@ import io.cucumber.java.pt.Quando;
 
 public class Register_PersonSteps {
 
-	
+	private final String userLogin;
+    private final String passwordLogin;
 	private final Register_PersonPage register_PersonPage;
+	
 
 	public Register_PersonSteps(Register_PersonPage register_PersonPage,
 			StrokePage strokePage, HandleProperties handleProperties) {
 		
-		// this.cartoesPage = cartoesPage;
+				
 		this.register_PersonPage = register_PersonPage;
+		this.userLogin = handleProperties.getValue("user_login");
+        this.passwordLogin = handleProperties.getValue("user_password");
+
 	}
 
 	// Cenario 1
@@ -49,8 +54,9 @@ public class Register_PersonSteps {
 	@Quando("^fornecer os dados validos$")
 	public void fornecer_os_dados_validos() throws Throwable {
 		register_PersonPage.fill_Name("Testando pereiras da silvas");
-		register_PersonPage.fill_Email("userqatestando@gmail.com ");
-		register_PersonPage.fill_Password("teste1234");
+		register_PersonPage.makeLogin(userLogin, passwordLogin);
+		// register_PersonPage.fill_Email("userqatestando@gmail.com ");
+		// register_PersonPage.fill_Password("teste1234");
 		register_PersonPage.fill_Password_Confirmation("teste1234");
 		register_PersonPage.click_Account_balance();
 		register_PersonPage.clickRegisterButton();

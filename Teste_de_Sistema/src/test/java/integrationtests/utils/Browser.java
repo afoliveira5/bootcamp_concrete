@@ -1,4 +1,4 @@
-package teste.de.sistema.integrationtests.utils;
+package integrationtests.utils;
 
 import java.lang.IllegalArgumentException;
 import org.openqa.selenium.WebDriver;

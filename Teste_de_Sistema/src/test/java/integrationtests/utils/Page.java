@@ -1,4 +1,4 @@
-package teste.de.sistema.integrationtests.utils;
+package integrationtests.utils;
 
 import java.util.concurrent.TimeUnit;
 import java.util.List;

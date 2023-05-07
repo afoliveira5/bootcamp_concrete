@@ -1,7 +1,7 @@
-package teste.de.sistema.integrationtests.steps;
+package integrationtests.steps;
 
-import teste.de.sistema.integrationtests.pages.LoginPage;
-import teste.de.sistema.integrationtests.utils.HandleProperties;
+import integrationtests.pages.LoginPage;
+import integrationtests.utils.HandleProperties;
 import io.cucumber.java.Before;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;

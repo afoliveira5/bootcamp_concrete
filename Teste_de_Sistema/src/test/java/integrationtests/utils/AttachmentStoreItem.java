@@ -1,4 +1,4 @@
-package teste.de.sistema.integrationtests.utils;
+package integrationtests.utils;
 
 import io.cucumber.java.Scenario;
 
