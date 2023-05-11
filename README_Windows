@@ -55,9 +55,14 @@ MAVEN_HOME
 C:\Users\Aparecido\Documents\drives\apache-maven-3.8.6
 ```
 
-Path
+Path_puro
 ```
 %JAVA_HOME%\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;%IntelliJ IDEA Community Edition%java -jar "C:\Path to File\myJar.jar";%MAVEN_HOME%\bin
+```
+
+Path _utilizado
+```
+%JAVA_HOME%\bin;%MAVEN_HOME%\bin
 ```
 
 jar
