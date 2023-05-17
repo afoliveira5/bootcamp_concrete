@@ -1,5 +1,6 @@
-# Bem vindo ao Repositorio de Teste de Sistema Utilizando Selenium
+# Bem vindo ao Repositorio de Teste de Sistema Utilizando Selenium 
 
+# Fazendo instalação no MACBOOK
 
 ## Instalando as dependencias
 
